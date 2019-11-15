@@ -217,13 +217,13 @@
 			}
 		},
 		watch: {
-			dataStudentAll: {
+			employees: {
 				handler: function () {
                     this.getDataStudentList()
                 },
                 deep: true
 			},
-			dataStudentCodition: {
+			employeesCodition: {
 				handler: function () {
                     this.getDataStudentListPagination()
                 },
